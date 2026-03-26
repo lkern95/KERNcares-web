@@ -1,0 +1,5 @@
+"scripts": {
+  "test": "jest",
+  "build": "webpack src/app.js -o public/bundle.js",
+  "deploy": "supabase depoly --token \"$SUPABASE_TOKEN\"
+},
